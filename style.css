@@ -344,6 +344,7 @@ footer{
 
 
 
+
 /*conteudo tablet*/
 
 @media screen and (max-width:730px) {
@@ -410,7 +411,7 @@ footer{
     .Secunda-text{
         margin: 10px 0px 10px 185px;
         width: 50%;
-        background-color: white;
+        background-color: transparent;
     }
 
     h2{
@@ -434,7 +435,7 @@ footer{
     .Terceiro-text{
         margin: 10px 0px 10px 185px;
         width: 50%;
-        background-color: white;
+        background-color: transparent;
     }
 
     .dica1{
@@ -455,3 +456,79 @@ footer{
 }
 
 
+@media screen and (max-width: 430px) {
+    .nav-bar {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .nav-item, .login-bottom {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .mobile-menu .nav-item, .mobile-menu .login-bottom {
+        display: block;
+        padding: 1rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .imge-principal {
+        left: 0;
+        margin: 0 auto;
+        width: 400px;
+        height: auto;
+        position: relative;
+        left: 20px;
+        bottom: 100px;
+    }
+
+    .Secunda-text, .Terceiro-text {
+        margin: 20px 10px 10px 0px;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    p{
+        font-size: 20px;
+        margin: 0 auto;
+        right: 20px;
+        
+    }
+
+    .dica1{
+        width: 100%;
+        margin: 20px 10px 10px 0px;
+    }
+
+    .dica2{
+        width: 100%;
+        margin: 20px 10px 10px 0px;
+    }
+
+    .dica3{
+        width: 100%;
+        margin: 20px 10px 10px 0px;
+    }
+
+    .dica4{
+        width: 100%;
+        margin: 20px 10px 10px 0px;
+    }
+
+}
